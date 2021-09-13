@@ -1,4 +1,5 @@
-<html>
+<DOCTYPE html>
+<html lang="en">
     <body>
         <div align='center'>
             <form method='POST'>
