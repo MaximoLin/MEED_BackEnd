@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<DOCTYPE html lang=es>
 <html>
     <body>      
         <?php
@@ -35,6 +35,7 @@
         </div>
         <?php
         if (isset($_POST['guardar'])) {
+        
             if (strlen($_POST['pregunta1']) >= 1 && strlen($_POST['pregunta2']) >= 1 && strlen($_POST['pregunta3']) < 1 && strlen($_POST['pregunta4']) < 1) {
                 
                 $pregunta1 = trim($_POST['pregunta1']);
