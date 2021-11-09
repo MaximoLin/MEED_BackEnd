@@ -12,20 +12,20 @@ if (isset($_POST['guardar'])) {
         $resultado = mysqli_query($conexion, $consulta);
         if ($resultado) {
             ?>
-            <h3>Se guardaron los datos!</h3>
+            <h3>¡Se guardaron los datos!</h3>
             <?php
         }
         else
         {
             ?>
-            <h3>No se pudieron guardar los datos!</h3>
+            <h3>¡No se pudieron guardar los datos!</h3>
             <?php
         }
     }
     else
     {
         ?>
-        <h3>Por favor completa todos los campos!</h3>
+        <h3>¡Por favor completa todos los campos!</h3>
         <?php
     }
 }
