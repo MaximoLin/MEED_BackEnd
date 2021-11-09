@@ -1,6 +1,9 @@
 <DOCTYPE html>
 <html>
     <body>
+        <?php
+        include("guardar.php")
+        ?>
         <div>
             <form method='POST'>
                 <label for="Pregunta1">Pregunta 1:</label>
@@ -13,9 +16,6 @@
                 <p><input type="text" name="pregunta4"></p>
                 <input type="submit" name="guardar" valaue="guardar">
             </form>
-        </div>
-        <?php
-        include("guardar.php")
-        ?>    
+        </div>    
     </body>
 </html>
