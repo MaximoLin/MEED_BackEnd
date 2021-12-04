@@ -15,7 +15,6 @@ if ($incluir)
             $r2 = $row['r2'];
             $r3 = $row['r3'];
             $r4 = $row['r4'];
-            $correct = $row['correct'];
 
             ?>
 

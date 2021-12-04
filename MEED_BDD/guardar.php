@@ -3,15 +3,14 @@
 include ("conexion.php");
 
 if (isset($_POST['submit1'])) {
-    if (strlen($_POST['pr']) >= 1 && strlen($_POST['r1']) >= 1 && strlen($_POST['r2']) >= 1 && strlen($_POST['r3']) >= 1 && strlen($_POST['r4']) >= 1 && strlen($_POST['a']) >= 1) {
+    if (strlen($_POST['pr']) >= 1 && strlen($_POST['r1']) >= 1 && strlen($_POST['r2']) >= 1 && strlen($_POST['r3']) >= 1 && strlen($_POST['r4'])) {
         $nro = 0;
         $pr = trim($_POST['pr']);
         $r1 = trim($_POST['r1']);
         $r2 = trim($_POST['r2']);
         $r3 = trim($_POST['r3']);
         $r4 = trim($_POST['r4']);
-        $correct = trim($_POST['a']);
-        $consulta = "INSERT INTO `pr1`(`id`, `pr`, `r1`, `r2`, `r3`, `r4`, `correct`) VALUES ('$nro','$pr','$r1','$r2','$r3','$r4', '$correct')";
+        $consulta = "INSERT INTO `pr1`(`id`, `pr`, `r1`, `r2`, `r3`, `r4`) VALUES ('$nro','$pr','$r1','$r2','$r3','$r4')";
         $resultado = mysqli_query($conexion, $consulta);
         if ($resultado) {
             ?>

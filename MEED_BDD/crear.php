@@ -13,8 +13,6 @@
                 <p><input type="text" name="r3"></p>
                 <label for="option4">Opción 4:</label>
                 <p><input type="text" name="r4"></p>
-                <label for="option5">Respuesta Correcta:</label>
-                <p><input type="text" name="a"></p>
                 <input type="submit" name="submit1" valaue="submit1">
             </form>
 
