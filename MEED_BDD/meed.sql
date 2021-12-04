@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-12-2021 a las 21:54:15
+-- Tiempo de generación: 04-12-2021 a las 15:37:41
 -- Versión del servidor: 10.4.19-MariaDB
 -- Versión de PHP: 8.0.6
 
@@ -47,7 +47,7 @@ INSERT INTO `pr1` (`id`, `pr`, `r1`, `r2`, `r3`, `r4`, `correct`) VALUES
 (20, '¿Quien es el director de TIC?', 'Ruben', 'Ariel', 'Dario', 'Roberto', 'Dario'),
 (21, '¿Cuántas materias de tronco común tienen los alumnos de TIC de 5to año?', '8', '10', '6', '7', '8'),
 (22, '¿Maxi aprueba proyecto?', 'Hmm dudoso', 'No lo sé', 'No', 'DEFINITIVAMENTE', 'DEFINITIVAMENTE'),
-(23, '¿Maxi termina el secundario?', 'Todavía no', 'Claro que sí!', 'Le falta', 'HOY SE GRADUA!', 'HOY SE GRADUA!');
+(26, '¿Maxi termina el secundario?', 'Todavía no', 'Claro que sí!', 'Le falta', 'HOY SE GRADUA!', 'HOY SE GRADUA!');
 
 -- --------------------------------------------------------
 
@@ -151,7 +151,7 @@ ALTER TABLE `pr4`
 -- AUTO_INCREMENT de la tabla `pr1`
 --
 ALTER TABLE `pr1`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT de la tabla `pr2`

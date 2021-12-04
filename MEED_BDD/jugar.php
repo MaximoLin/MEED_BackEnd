@@ -22,17 +22,27 @@ if ($incluir)
             <div>
                 <h3><?php echo $pr; ?></h3>
                 <div>
-                    <button type="button"><?php echo $r1; ?></button>
-                    <button type="button"><?php echo $r4; ?></button>
-                    <button type="button"><?php echo $r3; ?></button>
-                    <button type="button"><?php echo $r2; ?></button>
+                    <button type="button"><?php echo $r1; ?></button><br>
+                    <button type="button"><?php echo $r4; ?></button><br>
+                    <button type="button"><?php echo $r3; ?></button><br>
+                    <button type="button"><?php echo $r2; ?></button><br>
                 </div>
             </div>
-            
+
             <?php
         }
     }
 }
+
+?>
+
+<br><br><br>
+<div>
+<a href='index.php'><button type="button">Volver a la página principal</button></a>
+</div>
+
+<?php
+
 /*
 if ($incluir)
 {
